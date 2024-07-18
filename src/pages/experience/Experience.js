@@ -61,7 +61,27 @@ class Experience extends Component {
             );
           });
         })}
-        {/* <ExperienceAccordion sections={experience["sections"]} theme={theme} /> */}
+        <div className="certs-header-div" style={{ marginTop: "30px" }}>
+          <Fade bottom duration={2000} distance="20px">
+            <h1 className="certs-header" style={{ color: theme.text }}>
+              Volunteer
+            </h1>
+          </Fade>
+        </div>
+        {sections.map((section) => {
+          return section["experiences"].map((experience, index) => {
+            return (
+              <div className="experience-wrapper">
+                <ExperienceCard
+                  index={index}
+                  totalCards={section["experiences"].length}
+                  experience={experience}
+                  theme={theme}
+                />
+              </div>
+            );
+          });
+        })}
       </div>
     );
   }
