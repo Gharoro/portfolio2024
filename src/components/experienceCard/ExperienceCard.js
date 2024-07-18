@@ -93,6 +93,7 @@ class ExperienceCard extends Component {
                 style={{
                   display: "flex",
                   justifyContent: "flex-start",
+                  textAlign: "justify",
                   marginTop: 20,
                 }}
               >

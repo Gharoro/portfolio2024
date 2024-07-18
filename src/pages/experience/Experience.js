@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { Fade } from "react-reveal";
-import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
+// import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import ExperienceImg from "./ExperienceImg";
-// import ExperienceCard from "../../components/experienceCard/ExperienceCard.js";
+import ExperienceCard from "../../components/experienceCard/ExperienceCard.js";
 class Experience extends Component {
   render() {
     const theme = this.props.theme;
-    // const sections = experience["sections"];
+    const sections = experience["sections"];
     return (
       <div className="experience-main" id="experience">
         <div className="basic-experience">
@@ -40,7 +40,7 @@ class Experience extends Component {
             </div>
           </Fade>
         </div>
-        {/* <div className="certs-header-div">
+        <div className="certs-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="certs-header" style={{ color: theme.text }}>
               Work
@@ -60,8 +60,8 @@ class Experience extends Component {
               </div>
             );
           });
-        })} */}
-        <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+        })}
+        {/* <ExperienceAccordion sections={experience["sections"]} theme={theme} /> */}
       </div>
     );
   }

@@ -67,7 +67,7 @@
 
 .repo-description {
   overflow: hidden;
-  text-align: left;
+  text-align: justify;
   display: -webkit-box;
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 2;
