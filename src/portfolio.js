@@ -324,6 +324,8 @@ const experience = {
         },
       ],
     },
+  ],
+  volunteers: [
     {
       title: "Volunteer Experience",
       experiences: [

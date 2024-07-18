@@ -9,6 +9,7 @@ class Experience extends Component {
   render() {
     const theme = this.props.theme;
     const sections = experience["sections"];
+    const volunteers = experience["volunteers"];
     return (
       <div className="experience-main" id="experience">
         <div className="basic-experience">
@@ -64,11 +65,11 @@ class Experience extends Component {
         <div className="certs-header-div" style={{ marginTop: "30px" }}>
           <Fade bottom duration={2000} distance="20px">
             <h1 className="certs-header" style={{ color: theme.text }}>
-              Volunteer
+              Volunteership
             </h1>
           </Fade>
         </div>
-        {sections.map((section) => {
+        {volunteers.map((section) => {
           return section["experiences"].map((experience, index) => {
             return (
               <div className="experience-wrapper">
