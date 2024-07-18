@@ -4,7 +4,8 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import FeelingProud from "./FeelingProud";
+// import FeelingProud from "./FeelingProud";
+import profileImg from "../../assests/images/profileimg.JPEG";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -19,7 +20,7 @@ export default function Greeting(props) {
               </h1>
               {greeting.nickname && (
                 <h2 className="greeting-nickname" style={{ color: theme.text }}>
-                  ( {greeting.nickname} )
+                  - {greeting.nickname}
                 </h2>
               )}
               <p
@@ -41,7 +42,8 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            <FeelingProud theme={theme} />
+            {/* <FeelingProud theme={theme} /> */}
+            <img src={profileImg} alt="Profile" />
           </div>
         </div>
       </div>

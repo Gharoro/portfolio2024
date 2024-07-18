@@ -32,11 +32,24 @@ class Contact extends Component {
                 >
                   {ContactData["description"]}
                 </p>
+                <a
+                  className="contact-header-detail-text subTitle"
+                  href="tel:2348144618246"
+                >
+                  Phone: +2348144618246
+                </a>
+
                 <div className="resume-btn-div">
                   <Button
                     text="Send a Mail"
                     newTab={true}
                     href="mailto:gharoropureheart@gmail.com"
+                    theme={theme}
+                  />
+                  <Button
+                    text="Leave a Message"
+                    newTab={true}
+                    href="https://wa.me/08144618246"
                     theme={theme}
                   />
                 </div>

@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "PureheartGharoro",
   nickname: "Senior Software Engineer",
   subTitle:
-    "A result oriented software engineer with 7 years of experience building scalable and secured software solutions and leading cross-functional teams. Skilled in JavaScript, TypeScript, React, Angular, Node.js, Nest.Js, Java and Spring Boot.",
+    "A result oriented software engineer with seven (7) years of experience building scalable and secured software solutions and leading cross-functional teams. Expertise in JavaScript, TypeScript, React, Angular, Node.js and Nest.Js.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   githubProfile: "https://github.com/Gharoro",
@@ -32,7 +32,7 @@ const greeting = {
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/Gharoro9",
+    link: "https://github.com/Gharoro",
     fontAwesomeIcon: "fa-github",
     backgroundColor: "#181717",
   },
@@ -47,6 +47,12 @@ const socialMediaLinks = [
     link: "mailto:gharoropureheart@gmail.com",
     fontAwesomeIcon: "fa-google",
     backgroundColor: "#D14836",
+  },
+  {
+    name: "Whatsapp",
+    link: "https://wa.me/08144618246",
+    fontAwesomeIcon: "fa-whatsapp",
+    backgroundColor: "#128C7E",
   },
 ];
 
@@ -247,9 +253,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Volunteership",
   description:
-    "I have worked with companies in diverse industries as a Software Developer and Team Lead. Notably, I have worked with and built software solutions in Financial Technology (FinTech), Identity Management Enterprise Solutions, EdTech and much more. I've also held volunteer positions in the technology community.",
+    "A seasoned Software Developer and Team Lead with a successful track record in delivering software solutions for various industries and mentoring junior developers. Expertise spans FinTech, Identity Management Enterprise Solutions, EdTech and HrTech.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -360,7 +366,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "I've worked on a variety of projects using the right technologies as the project demands. My solutions are mostly web based whether building and optimizing user interfaces or designing Restful APIs for either web, mobile or desktop clients.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -403,7 +409,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "address_image.svg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available via mail, phone or Whatsapp. You can message me, I will reply within 24 hours.",
   },
   addressSection: {
     title: "Address",
