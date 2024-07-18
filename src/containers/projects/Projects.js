@@ -1,11 +1,17 @@
 import React, { useState, useEffect } from "react";
 import ApolloClient from "apollo-boost";
 import { gql } from "apollo-boost";
+import dotenv from "dotenv";
+
 import "./Project.css";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-import Button from "../../components/button/Button";
-import { openSource } from "../../portfolio";
-import { greeting } from "../../portfolio.js";
+
+dotenv.config();
+
+const openSource = {
+  githubConvertedToken: process.env.GITHUB_TOKEN,
+  githubUserName: process.env.GITHUB_USERNAME,
+};
 
 export default function Projects() {
   const [repo, setrepo] = useState([]);
@@ -67,19 +73,13 @@ export default function Projects() {
   }
 
   return (
-    <div className="main" id="opensource">
+    <div className="main" id="projects">
       <h1 className="project-title">Open Source Projects</h1>
       <div className="repo-cards-div-main">
         {repo.map((v, i) => {
           return <GithubRepoCard repo={v} key={v.node.id} />;
         })}
       </div>
-      <Button
-        text={"More Projects"}
-        className="project-button"
-        href={greeting.githubProfile}
-        newTab={true}
-      />
     </div>
   );
 }

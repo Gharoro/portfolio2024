@@ -2,6 +2,11 @@
   width: 100%;
 }
 
+.experience-wrapper {
+  /* border: 2px solid red; */
+  padding: 0 40px;
+}
+
 .basic-experience {
   margin-left: 5%;
   margin-right: 5%;

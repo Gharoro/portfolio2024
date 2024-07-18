@@ -38,7 +38,7 @@ class Header extends Component {
             <ul className="menu" style={{ backgroundColor: theme.body }}>
               <li>
                 <NavLink
-                  to="/home"
+                  to="/"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
@@ -49,64 +49,54 @@ class Header extends Component {
                 </NavLink>
               </li>
               <li>
-                <NavLink
-                  to="/education"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                <a
+                  href="#about"
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  onMouseLeave={(event) => onMouseOut(event)}
                 >
-                  Education
-                </NavLink>
+                  About
+                </a>
               </li>
               <li>
-                <NavLink
-                  to="/experience"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                <a
+                  href="#experience"
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  onMouseLeave={(event) => onMouseOut(event)}
                 >
                   Experience
-                </NavLink>
+                </a>
               </li>
               <li>
-                <NavLink
-                  to="/projects"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                <a
+                  href="#projects"
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  onMouseLeave={(event) => onMouseOut(event)}
                 >
                   Projects
-                </NavLink>
+                </a>
               </li>
               <li>
-                <NavLink
-                  to="/opensource"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                <a
+                  href="#education"
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  onMouseLeave={(event) => onMouseOut(event)}
                 >
-                  Open Source
-                </NavLink>
+                  Education
+                </a>
               </li>
               <li>
-                <NavLink
-                  to="/contact"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                <a
+                  href="#contact"
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  onMouseLeave={(event) => onMouseOut(event)}
                 >
                   Contact Me
-                </NavLink>
+                </a>
               </li>
             </ul>
           </header>

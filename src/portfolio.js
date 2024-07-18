@@ -7,137 +7,58 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Pureheart's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Pureheart Gharoro Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Pureheart Gharoro",
+  logo_name: "PureheartGharoro",
+  nickname: "Senior Software Engineer",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A result oriented software engineer with 7 years of experience building scalable and secured software solutions and leading cross-functional teams. Skilled in JavaScript, TypeScript, React, Angular, Node.js, Nest.Js, Java and Spring Boot.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  githubProfile: "https://github.com/Gharoro",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    link: "https://github.com/Gharoro9",
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
-  {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+    link: "https://www.linkedin.com/in/gharoropureheart/",
+    fontAwesomeIcon: "fa-linkedin-in",
+    backgroundColor: "#0077B5",
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    link: "mailto:gharoropureheart@gmail.com",
+    fontAwesomeIcon: "fa-google",
+    backgroundColor: "#D14836",
   },
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive and optimized web applications using React with TypeScript and Angular.",
+        "⚡ Designing and developing backend web services in Node with Nest.js and Java with Spring Boot.",
+        "⚡ Product ownership and leading technical teams.",
       ],
       softwareSkills: [
         {
@@ -170,10 +91,25 @@ const skills = {
           },
         },
         {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            backgroundColor: "#2C8EBB",
+            color: "#02569B",
+          },
+        },
+        {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
+          style: {
+            color: "#CB3837",
           },
         },
         {
@@ -183,72 +119,19 @@ const skills = {
             color: "#339933",
           },
         },
+
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "Nest.Js",
+          fontAwesomeClassname: "simple-icons:nestjs",
           style: {
             color: "#2C8EBB",
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "Java/Spring Boot",
+          fontAwesomeClassname: "simple-icons:spring",
           style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
+            color: "#339933",
           },
         },
         {
@@ -265,6 +148,27 @@ const skills = {
             color: "#47A248",
           },
         },
+        // {
+        //   skillName: "GCP",
+        //   fontAwesomeClassname: "simple-icons:googlecloud",
+        //   style: {
+        //     color: "#4285F4",
+        //   },
+        // },
+        // {
+        //   skillName: "AWS",
+        //   fontAwesomeClassname: "simple-icons:amazonaws",
+        //   style: {
+        //     color: "#FF9900",
+        //   },
+        // },
+        // {
+        //   skillName: "Firebase",
+        //   fontAwesomeClassname: "simple-icons:firebase",
+        //   style: {
+        //     color: "#FFCA28",
+        //   },
+        // },
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
@@ -272,107 +176,7 @@ const skills = {
             color: "#1488C6",
           },
         },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
       ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
-  ],
-};
-
-// Education Page
-const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com/layman_brother/",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
     },
   ],
 };
@@ -380,30 +184,30 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title:
+        "Stutern Graduate Accelerator Program (Bootcamp) - Lagos, Nigeria.",
+      subtitle: "Full Stack Software Engineering - MERN Stack",
+      logo_path: "",
+      alt_name: "Stutern",
+      duration: "Nov 2019 - Aug 2020",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Project based learning on frontend development with React.",
+        "⚡ Project based learning on backend development with Node.Js and MongoDB.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.stutern.com/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "The Federal University of Technology, Akure - Ondo, Nigeria",
+      subtitle: "B.Tech. Industrial Mathematics",
+      logo_path: "",
+      alt_name: "FUTA",
+      duration: "Feb 2013 - Oct 2018",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ Course work in Basic programmiing with QBasic and Fortran",
+        "⚡ Course work in functional and object oriented programming with Python.",
+        "⚡ Graduated with a Second Class Upper (Honours) (2.1).",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://futa.edu.ng/",
     },
   ],
 };
@@ -411,112 +215,31 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "ALC 3.1 Mobile Web Specialist",
+      subtitle: "- Google, Andela & Pluralsight",
+      logo_path: "alc.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+        "https://drive.google.com/file/d/1CiorVsHUswjnsb_3wSKF1CLDY3rFW19k/view",
+      alt_name: "ALC 3.1",
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Javascript Algorithms and Data Structures",
+      subtitle: "- Freecodecamp",
+      logo_path: "fccjs.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
+        "https://www.freecodecamp.org/certification/fccf93da63e-5895-44b9-85c9-b8be0e6efaf5/javascript-algorithms-and-data-structures",
+      alt_name: "Javascript",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Building Restful APIs in Laravel",
+      subtitle: "- Linkedin Learning",
+      logo_path: "linkedinlearning.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
+        "https://drive.google.com/file/d/1vSfR5RTMNHWn12fFvuUQGMA90NSSSTbb/view",
+      alt_name: "Linkedin Learning",
       color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
     },
   ],
 };
@@ -526,7 +249,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with companies in diverse industries as a Software Developer and Team Lead. Notably, I have worked with and built software solutions in Financial Technology (FinTech), Identity Management Enterprise Solutions, EdTech and much more. I've also held volunteer positions in the technology community.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -534,148 +257,97 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          title: "Senior Software Engineer/Engineering Manager",
+          company: "Seamfix",
+          company_url: "https://seamfix.com/",
+          logo_path: "",
+          duration: "July 2024 - Present",
+          location: "Lagos, Nigeria",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+            "Working on identity management software solutions for medium to large scale organisations in banking, telecommunications, government agencies etc. Lead software engineer and defacto engineering manager. Technologies: Typescript, Angular, Ionic, Nest.js, Java and Spring Boot.",
           color: "#000000",
         },
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Frontend Engineer",
+          company: "Nomba Financial Services",
+          company_url: "https://nomba.com/",
+          logo_path: "",
+          duration: "April 2022 - June 2024",
+          location: "Lagos, Nigeria",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Worked in the Payment Processing Team as lead Frontend Engineer. Built Nomba Checkout, an online payment solution for accepting payments via bank transfer, card, ussd or Nomba QR code. Technologies: Typescript, React.js, Styled Components, Node.js",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Full Stack Developer/Team Lead",
+          company: "Kimberly Ryan Limited",
+          company_url: "https://kimberly-ryan.com/",
+          logo_path: "",
+          duration: "January 2021 - March 2022",
+          location: "Lagos, Nigeria",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "Hired as the first employee in the tech team, I was responsible for setting up the company's tech team, building software tools to improve internal operations. Also responsible for launching key software products within the organisation. Technologies: Javascript, React, Angular, Node.js, Laravel.",
           color: "#9b1578",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          title: "Frontend Engineer",
+          company: "Edves",
+          company_url: "https://www.edves.net/",
+          logo_path: "",
+          duration: "August 2021 - March 2022",
+          location: "Lagos, Nigeria",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+            "Designed and coded Edves Learning Management System used by thousands of users in Nigeria and other African countries including Kenya and Ghana. Worked specifically on Accounting and Inventory Modules.",
+          color: "#ee3c26",
+        },
+        {
+          title: "Full Stack Developer",
+          company: "Talenture.",
+          company_url: "https://talenture.co.uk/",
+          logo_path: "",
+          duration: "March 2020 - December 2020",
+          location: "Lagos, Nigeria",
+          description:
+            "Collaborated with team members to conceptualize, design, and develop a cutting-edge HR solutions. Successfully engineered a robust video technology recruitment solution tailored for hiring managers. Technoloies: Typescript, React, Node.js, Ruby on Rails.",
+          color: "#fc1f20",
+        },
+        {
+          title: "Web Developer",
+          company: "Complete Computers and Technologies Limited",
+          company_url: "https://www.cctechlimited.com/",
+          logo_path: "",
+          duration: "June 2017 - February 2020",
+          location: "Remote, Nigeria",
+          description:
+            "Worked with clients to understand their project requirements and functionalities.  Built web applications using HTML, CSS, Javascript and React.Js.  Developed backend applications using PHP, Laravel and MySQL. Technologies: Javascript, React.js, PHP, Laravel.",
           color: "#fc1f20",
         },
       ],
     },
     {
-      title: "Internships",
+      title: "Volunteer Experience",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
+          title: "Mobile Web Specialist Mentor ALC 4.0 (Volunteer)",
+          company: "Google and Andela",
+          company_url: "https://andela.com/",
+          logo_path: "",
+          duration: "June 2019 - December 2019",
+          location: "Lagos, Nigeria",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-          color: "#000000",
-        },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
-      ],
-    },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            "Learning Community Volunteer Mentor where I supported and provided guidance to learners that were currently enrolled in the ALC program (Mobile Web Specialist Track) mentoring and unblocking any issue they may be facing with their learning in collaboration with Google and Pluralsight.",
           color: "#4285F4",
         },
         {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
+          title: "Technical Coach",
+          company: "Django Girls",
+          company_url: "https://djangogirls.org/en/delta1/",
+          logo_path: "",
+          duration: "October 2017 - October 2017",
+          location: "Delta, Nigeria",
           description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+            "Acted as a Technical Coach introducing and training learners on programming with Python and Django web framework. Introduced learners to the command line and build a basic command line application with Python.",
           color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
         },
       ],
     },
@@ -697,45 +369,39 @@ const publicationsHeader = {
 };
 
 const publications = {
-  data: [
-    {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
-    },
-    {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
-    },
-    {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
-    },
-  ],
+  // data: [
+  //   {
+  //     id: "neuro-symbolic-sudoku-solver",
+  //     name: "Neuro-Symbolic Sudoku Solver",
+  //     createdAt: "2023-07-02T00:00:00Z",
+  //     description: "Paper published in KDD KiML 2023",
+  //     url: "https://arxiv.org/abs/2307.00653",
+  //   },
+  //   {
+  //     id: "mdp-diffusion",
+  //     name: "MDP-Diffusion",
+  //     createdAt: "2023-09-19T00:00:00Z",
+  //     description: "Blog published in Paperspace",
+  //     url: "https://blog.paperspace.com/mdp-diffusion/",
+  //   },
+  //   {
+  //     id: "consistency-models",
+  //     name: "Consistency Models",
+  //     createdAt: "2023-10-12T00:00:00Z",
+  //     description: "Blog published in Paperspace",
+  //     url: "https://blog.paperspace.com/consistency-models/",
+  //   },
+  // ],
+  data: [],
 };
 
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "address_image.svg",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
-  },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
@@ -754,13 +420,1864 @@ const contactPageData = {
   },
 };
 
+const githubData = {
+  total: {
+    lastYear: 1070,
+  },
+  contributions: [
+    {
+      date: "2023-07-16",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-07-17",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-07-18",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2023-07-19",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-07-20",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-07-21",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-07-22",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-07-23",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-07-24",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-07-25",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-07-26",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-07-27",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-07-28",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-07-29",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-07-30",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-07-31",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-08-01",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2023-08-02",
+      count: 9,
+      level: 2,
+    },
+    {
+      date: "2023-08-03",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-08-04",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-08-05",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-08-06",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-08-07",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-08-08",
+      count: 5,
+      level: 2,
+    },
+    {
+      date: "2023-08-09",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-08-10",
+      count: 9,
+      level: 2,
+    },
+    {
+      date: "2023-08-11",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-08-12",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-08-13",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2023-08-14",
+      count: 13,
+      level: 3,
+    },
+    {
+      date: "2023-08-15",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2023-08-16",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-08-17",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-08-18",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-08-19",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2023-08-20",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-08-21",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2023-08-22",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2023-08-23",
+      count: 14,
+      level: 4,
+    },
+    {
+      date: "2023-08-24",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2023-08-25",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-08-26",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2023-08-27",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2023-08-28",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2023-08-29",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2023-08-30",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2023-08-31",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2023-09-01",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-02",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-03",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-04",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2023-09-05",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-09-06",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2023-09-07",
+      count: 5,
+      level: 2,
+    },
+    {
+      date: "2023-09-08",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2023-09-09",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-10",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-11",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-12",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2023-09-13",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-14",
+      count: 5,
+      level: 2,
+    },
+    {
+      date: "2023-09-15",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2023-09-16",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-17",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-18",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2023-09-19",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-20",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-21",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2023-09-22",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-09-23",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-24",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-25",
+      count: 5,
+      level: 2,
+    },
+    {
+      date: "2023-09-26",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-09-27",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2023-09-28",
+      count: 13,
+      level: 3,
+    },
+    {
+      date: "2023-09-29",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2023-09-30",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-10-01",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-10-02",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2023-10-03",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2023-10-04",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2023-10-05",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-10-06",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2023-10-07",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-10-08",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-10-09",
+      count: 15,
+      level: 4,
+    },
+    {
+      date: "2023-10-10",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-10-11",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2023-10-12",
+      count: 11,
+      level: 3,
+    },
+    {
+      date: "2023-10-13",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2023-10-14",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-10-15",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-10-16",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-10-17",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-10-18",
+      count: 10,
+      level: 3,
+    },
+    {
+      date: "2023-10-19",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2023-10-20",
+      count: 12,
+      level: 3,
+    },
+    {
+      date: "2023-10-21",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-10-22",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-10-23",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2023-10-24",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2023-10-25",
+      count: 18,
+      level: 4,
+    },
+    {
+      date: "2023-10-26",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-10-27",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2023-10-28",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-10-29",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-10-30",
+      count: 10,
+      level: 3,
+    },
+    {
+      date: "2023-10-31",
+      count: 17,
+      level: 4,
+    },
+    {
+      date: "2023-11-01",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2023-11-02",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2023-11-03",
+      count: 9,
+      level: 2,
+    },
+    {
+      date: "2023-11-04",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-11-05",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-11-06",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2023-11-07",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2023-11-08",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2023-11-09",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-11-10",
+      count: 16,
+      level: 4,
+    },
+    {
+      date: "2023-11-11",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-11-12",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-11-13",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2023-11-14",
+      count: 10,
+      level: 3,
+    },
+    {
+      date: "2023-11-15",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2023-11-16",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2023-11-17",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-11-18",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-11-19",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-11-20",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2023-11-21",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2023-11-22",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-11-23",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2023-11-24",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2023-11-25",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-11-26",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-11-27",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2023-11-28",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-11-29",
+      count: 9,
+      level: 2,
+    },
+    {
+      date: "2023-11-30",
+      count: 11,
+      level: 3,
+    },
+    {
+      date: "2023-12-01",
+      count: 5,
+      level: 2,
+    },
+    {
+      date: "2023-12-02",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-03",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-04",
+      count: 11,
+      level: 3,
+    },
+    {
+      date: "2023-12-05",
+      count: 13,
+      level: 3,
+    },
+    {
+      date: "2023-12-06",
+      count: 5,
+      level: 2,
+    },
+    {
+      date: "2023-12-07",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-08",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2023-12-09",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-10",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-11",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-12-12",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2023-12-13",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2023-12-14",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2023-12-15",
+      count: 5,
+      level: 2,
+    },
+    {
+      date: "2023-12-16",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-17",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-18",
+      count: 11,
+      level: 3,
+    },
+    {
+      date: "2023-12-19",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-20",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2023-12-21",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-22",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-23",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-24",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-25",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-26",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-27",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-28",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-29",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-30",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2023-12-31",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-01",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-02",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-03",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-04",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-05",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-06",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-07",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-08",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-09",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-10",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-11",
+      count: 13,
+      level: 3,
+    },
+    {
+      date: "2024-01-12",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2024-01-13",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-14",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-15",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2024-01-16",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2024-01-17",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2024-01-18",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2024-01-19",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-20",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-21",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-22",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2024-01-23",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2024-01-24",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-25",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2024-01-26",
+      count: 5,
+      level: 2,
+    },
+    {
+      date: "2024-01-27",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-28",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-01-29",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2024-01-30",
+      count: 12,
+      level: 3,
+    },
+    {
+      date: "2024-01-31",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2024-02-01",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2024-02-02",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-02-03",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-02-04",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-02-05",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2024-02-06",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2024-02-07",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2024-02-08",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-02-09",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2024-02-10",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2024-02-11",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-02-12",
+      count: 9,
+      level: 2,
+    },
+    {
+      date: "2024-02-13",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2024-02-14",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2024-02-15",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-02-16",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-02-17",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-02-18",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-02-19",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-02-20",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-02-21",
+      count: 9,
+      level: 2,
+    },
+    {
+      date: "2024-02-22",
+      count: 5,
+      level: 2,
+    },
+    {
+      date: "2024-02-23",
+      count: 13,
+      level: 3,
+    },
+    {
+      date: "2024-02-24",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-02-25",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-02-26",
+      count: 10,
+      level: 3,
+    },
+    {
+      date: "2024-02-27",
+      count: 12,
+      level: 3,
+    },
+    {
+      date: "2024-02-28",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2024-02-29",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2024-03-01",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-02",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-03",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-04",
+      count: 5,
+      level: 2,
+    },
+    {
+      date: "2024-03-05",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2024-03-06",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-07",
+      count: 12,
+      level: 3,
+    },
+    {
+      date: "2024-03-08",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2024-03-09",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-10",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-03-11",
+      count: 9,
+      level: 2,
+    },
+    {
+      date: "2024-03-12",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2024-03-13",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-14",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-15",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-16",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-17",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-18",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2024-03-19",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-20",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2024-03-21",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2024-03-22",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2024-03-23",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-24",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-25",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2024-03-26",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-03-27",
+      count: 21,
+      level: 4,
+    },
+    {
+      date: "2024-03-28",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2024-03-29",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-30",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-03-31",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-01",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-02",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-04-03",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2024-04-04",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2024-04-05",
+      count: 7,
+      level: 2,
+    },
+    {
+      date: "2024-04-06",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-07",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-08",
+      count: 10,
+      level: 3,
+    },
+    {
+      date: "2024-04-09",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-10",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-04-11",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-12",
+      count: 14,
+      level: 4,
+    },
+    {
+      date: "2024-04-13",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-14",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-15",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2024-04-16",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2024-04-17",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2024-04-18",
+      count: 10,
+      level: 3,
+    },
+    {
+      date: "2024-04-19",
+      count: 11,
+      level: 3,
+    },
+    {
+      date: "2024-04-20",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-21",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-22",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2024-04-23",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2024-04-24",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2024-04-25",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2024-04-26",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-27",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-28",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-29",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-04-30",
+      count: 10,
+      level: 3,
+    },
+    {
+      date: "2024-05-01",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-05-02",
+      count: 5,
+      level: 2,
+    },
+    {
+      date: "2024-05-03",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-05-04",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-05-05",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-05-06",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2024-05-07",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2024-05-08",
+      count: 23,
+      level: 4,
+    },
+    {
+      date: "2024-05-09",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2024-05-10",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2024-05-11",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-05-12",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-05-13",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2024-05-14",
+      count: 9,
+      level: 2,
+    },
+    {
+      date: "2024-05-15",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-05-16",
+      count: 8,
+      level: 2,
+    },
+    {
+      date: "2024-05-17",
+      count: 6,
+      level: 2,
+    },
+    {
+      date: "2024-05-18",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-05-19",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-05-20",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-05-21",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2024-05-22",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-05-23",
+      count: 9,
+      level: 2,
+    },
+    {
+      date: "2024-05-24",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-05-25",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-05-26",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-05-27",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-05-28",
+      count: 2,
+      level: 1,
+    },
+    {
+      date: "2024-05-29",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2024-05-30",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-05-31",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2024-06-01",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-02",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-03",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2024-06-04",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-05",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-06",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-07",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-08",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-09",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-10",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-11",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-12",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-13",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-14",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-15",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-16",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-17",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-18",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-19",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-20",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-06-21",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-22",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-23",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-24",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-25",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-26",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2024-06-27",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-28",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-29",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-06-30",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-01",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2024-07-02",
+      count: 1,
+      level: 1,
+    },
+    {
+      date: "2024-07-03",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-04",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-05",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-06",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-07",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-08",
+      count: 4,
+      level: 1,
+    },
+    {
+      date: "2024-07-09",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-10",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-11",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-12",
+      count: 3,
+      level: 1,
+    },
+    {
+      date: "2024-07-13",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-14",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-15",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-16",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-17",
+      count: 0,
+      level: 0,
+    },
+    {
+      date: "2024-07-18",
+      count: 2,
+      level: 1,
+    },
+  ],
+};
 export {
   settings,
   seo,
   greeting,
   socialMediaLinks,
   skills,
-  competitiveSites,
   degrees,
   certifications,
   experience,
@@ -768,4 +2285,5 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  githubData,
 };

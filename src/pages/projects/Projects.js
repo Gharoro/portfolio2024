@@ -1,35 +1,32 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import PublicationCard from "../../components/publicationsCard/PublicationCard";
-import Button from "../../components/button/Button";
-import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
+import CalendarHeatmap from "react-calendar-heatmap";
 import {
-  greeting,
   projectsHeader,
   publicationsHeader,
   publications,
+  githubData,
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import "react-calendar-heatmap/dist/styles.css";
 
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
+    const formattedData = githubData.contributions.map((contribution) => ({
+      date: contribution.date,
+      count: contribution.count,
+    }));
     return (
-      <div className="projects-main">
-        <Header theme={theme} />
+      <div className="projects-main" id="projects">
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <ProjectsImg theme={theme} />
               </div>
               <div className="projects-heading-text-div">
@@ -54,13 +51,27 @@ class Projects extends Component {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>
-        <Button
-          text={"More Projects"}
-          className="project-button"
-          href={greeting.githubProfile}
-          newTab={true}
-          theme={theme}
-        />
+        <div className="github-data">
+          <div className="certs-header-div">
+            <Fade bottom duration={2000} distance="20px">
+              <h1 className="certs-header" style={{ color: theme.text }}>
+                Github Contribution
+              </h1>
+            </Fade>
+          </div>
+          <p>{githubData.total.lastYear} contributions in the last year</p>
+          <CalendarHeatmap
+            startDate={new Date("2023-07-16")}
+            endDate={new Date("2024-07-15")}
+            values={formattedData}
+            classForValue={(value) => {
+              if (!value) {
+                return "color-empty";
+              }
+              return `color-github-${value.count}`;
+            }}
+          />
+        </div>
 
         {/* Publications  */}
         {publications.data.length > 0 ? (
@@ -91,9 +102,6 @@ class Projects extends Component {
             return <PublicationCard pub={pub} theme={theme} />;
           })}
         </div>
-
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
       </div>
     );
   }

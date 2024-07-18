@@ -74,6 +74,10 @@
   margin-right: 40px;
   margin-top: 60px;
 }
+.github-data {
+  padding: 0 40px;
+  margin: 100px 0;
+}
 
 @media (max-width: 1380px) {
   .projects-heading-text {
