@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "I am a Senior Software Engineer based in Lagos, Nigeria with seven (7) years of experience in software development. My industry experience cuts across FinTech, EdTech, Identity Management and HRTech. I have a proven track record of developing secure and scalable software solutions and leading cross-functional teams. My areas of expertise include JavaScript, TypeScript, React, Angular, Node.js, and Nest.Js.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
+    "https://drive.google.com/file/d/146zieNq9wNAg6iN6-wMKiuQ-DBY9f4W0/view?usp=sharing",
   githubProfile: "https://github.com/Gharoro",
 };
 
@@ -62,9 +62,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive and optimized web applications using React with TypeScript and Angular.",
-        "⚡ Designing and developing backend web services in Node with Nest.js and Java with Spring Boot.",
-        "⚡ Product ownership and leading technical teams.",
+        "⚡ Design, develop, and maintain scalable and secure full-stack web applications using modern technologies such as JavaScript, TypeScript, React, Angular, Node.js, and Nest.Js.",
+        "⚡ Lead and mentor cross-functional teams, providing technical guidance, conducting code reviews, and ensuring adherence to best practices and coding standards.",
+        "⚡ Collaborate with stakeholders to gather requirements, define project scopes, and deliver high-quality software solutions that meet business objectives and user needs.",
       ],
       softwareSkills: [
         {
