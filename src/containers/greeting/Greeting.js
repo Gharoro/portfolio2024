@@ -23,11 +23,6 @@ export default function Greeting(props) {
                   - Senior Software Engineer
                 </h2>
               )}
-              {greeting.nickname && (
-                <h2 className="greeting-job" style={{ color: theme.text }}>
-                  - Senior Software Engineer
-                </h2>
-              )}
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
