@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  cursor: pointer;
 }
 
 .project-box {
@@ -15,7 +16,7 @@
   flex-direction: row;
   justify-content: space-between;
   border-radius: 10px;
-  padding: 1.5rem;
+  padding: 1rem;
   gap: 20px;
   margin-bottom: 10px;
   -webkit-box-shadow: 4px 3px 20px -2px grey;
@@ -26,6 +27,41 @@
 
 .project-box img {
   border-radius: 10px;
+  width: 50%;
+  object-fit: cover;
+}
+
+.github-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+/* Add this to your CSS file */
+.react-calendar-heatmap .color-empty {
+  fill: #ebedf0;
+}
+
+.react-calendar-heatmap .color-github-0 {
+  fill: #ebedf0;
+}
+
+.react-calendar-heatmap .color-github-1 {
+  fill: #c6e48b;
+}
+
+.react-calendar-heatmap .color-github-2 {
+  fill: #7bc96f;
+}
+
+.react-calendar-heatmap .color-github-3 {
+  fill: #239a3b;
+}
+
+.react-calendar-heatmap .color-github-4 {
+  fill: #196127;
 }
 
 .basic-experience {
@@ -93,6 +129,9 @@
   .project-box {
     flex-direction: column;
   }
+  .project-box img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -119,5 +158,9 @@
   .project-box {
     flex-direction: column;
     width: 85vw;
+  }
+
+  .project-box img {
+    width: 100%;
   }
 }

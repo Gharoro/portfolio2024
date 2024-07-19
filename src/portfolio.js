@@ -1,4 +1,7 @@
-/* Change this file to get your personal Porfolio */
+import checkoutImg from "./assests/images/projects/checkout-img.png";
+import krisImg from "./assests/images/projects/kris-img.png";
+import kracadaImg from "./assests/images/projects/kracada-img.png";
+import edvesImg from "./assests/images/projects/edves-img.jpg";
 
 // Website related settings
 const settings = {
@@ -2387,6 +2390,38 @@ const achievementSection = {
   ],
 };
 
+const projects = {
+  data: [
+    {
+      title: "Nomba Checkout",
+      description:
+        "Nomba Checkout serves as a versatile payment gateway, empowering businesses to seamlessly accept payments from customers. This platform facilitates transactions through bank transfers or the use of local and international debit cards. Notably, it offers support for major card networks, including Mastercard, Visa, Verve and American Express. Businesses can leverage Nomba Checkout to enhance their payment processing capabilities, providing customers with a convenient and secure way to make transactions.",
+      image: checkoutImg,
+      link: "https://nomba.com/checkout/",
+    },
+    {
+      title: "KRIS",
+      description:
+        "Revolutionizing HR management by offering an all-in-one platform that simplifies payroll automation, hiring, and employee management.",
+      image: krisImg,
+      link: "https://kris-landing-page-95d468fef87f.herokuapp.com/",
+    },
+    {
+      title: "Edves LMS Portal",
+      description:
+        "An all-in-one Learning and School Management Software. With a variety  of tools from Results portals, managing attendance, schedules for various classes, tracking homework and assignments to managing you schools admin tasks, financial transactions, ensuring that your school runs smoothly.",
+      image: edvesImg,
+      link: "https://www.edves.net/demo",
+    },
+    {
+      title: "Kracada",
+      description:
+        "All-in-one entertainment and lifestyle app. See the latest gist, find jobs, explore new places, book hotels etc.",
+      image: kracadaImg,
+      link: "https://www.kracada.com/",
+    },
+  ],
+};
 export {
   settings,
   seo,
@@ -2403,4 +2438,5 @@ export {
   githubData,
   blogData,
   achievementSection,
+  projects,
 };

@@ -1,14 +1,21 @@
 import React, { Component } from "react";
 import { Fade } from "react-reveal";
+import CalendarHeatmap from "react-calendar-heatmap";
 import "./Experience.css";
-import { experience, projectsHeader } from "../../portfolio.js";
+import { githubData, projects, projectsHeader } from "../../portfolio.js";
 import ProjectsImg from "./ProjectsImg.js";
+import openUrlInNewTab from "../../utils.js";
+import "react-calendar-heatmap/dist/styles.css";
+
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
-    const sections = experience["sections"];
+    const formattedData = githubData.contributions.map((contribution) => ({
+      date: contribution.date,
+      count: contribution.count,
+    }));
     return (
-      <div className="experience-main" id="experience">
+      <div className="experience-main" id="projects">
         <div className="basic-experience" style={{ marginBottom: "4rem" }}>
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">
@@ -38,30 +45,52 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
-
-        {sections.map((section) => {
-          return section["experiences"].map((experience, index) => {
+        <Fade right duration={2000} distance="40px">
+          {projects.data.map((project, i) => {
             return (
-              <div className="experience-wrapper">
+              <div
+                key={i}
+                onClick={() => openUrlInNewTab(project.link)}
+                className="experience-wrapper"
+              >
                 <div
                   className="project-box"
                   style={{
                     backgroundColor: `${theme.body}`,
                   }}
                 >
-                  <img
-                    alt="website"
-                    src="https://plus.unsplash.com/premium_photo-1679079456083-9f288e224e96?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHdlYnNpdGVzfGVufDB8fDB8fHww"
-                  />
+                  <img alt="website" src={project.image} />
                   <div>
-                    <h2>{experience.title}</h2>
-                    <p>{experience.description}</p>
+                    <h2>{project.title}</h2>
+                    <p>{project.description}</p>
                   </div>
                 </div>
               </div>
             );
-          });
-        })}
+          })}
+        </Fade>
+
+        <div className="github-data">
+          <div className="certs-header-div">
+            <Fade bottom duration={2000} distance="20px">
+              <h1 className="certs-header" style={{ color: theme.text }}>
+                Github Contributions
+              </h1>
+            </Fade>
+          </div>
+          <p>{githubData.total.lastYear} contributions in the last year</p>
+          <CalendarHeatmap
+            startDate={new Date("2023-07-16")}
+            endDate={new Date("2024-07-15")}
+            values={formattedData}
+            classForValue={(value) => {
+              if (!value) {
+                return "color-empty";
+              }
+              return `color-github-${value.count}`;
+            }}
+          />
+        </div>
       </div>
     );
   }
