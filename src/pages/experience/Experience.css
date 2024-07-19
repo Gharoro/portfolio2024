@@ -5,7 +5,10 @@
 }
 
 .experience-wrapper {
-  padding: 0 4rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
 }
 
 .basic-experience {
@@ -90,9 +93,5 @@
     margin-right: 0px;
     line-height: normal;
     text-align: center;
-  }
-
-  .experience-wrapper {
-    padding: 20px !important;
   }
 }

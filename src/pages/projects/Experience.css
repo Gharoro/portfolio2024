@@ -45,6 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1rem;
 }
 
 .experience-heading-text-div {
@@ -117,6 +118,6 @@
 
   .project-box {
     flex-direction: column;
-    width: 90vw;
+    width: 85vw;
   }
 }
