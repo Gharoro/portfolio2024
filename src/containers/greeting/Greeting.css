@@ -43,6 +43,12 @@
   font-family: "Google Sans Bold Italic";
 }
 
+.greeting-jobtitle {
+  font-size: 20px;
+  line-height: 0px;
+  font-family: "Google Sans Bold Italic";
+}
+
 .greeting-text-p {
   font-size: 40px;
   line-height: 40px;
