@@ -47,8 +47,17 @@ code {
 html,
 body {
   scroll-behavior: smooth;
-  overflow-x: visible;
+  overflow-x: hidden;
+  /* max-width: 100% !important; */
+  /* box-sizing: border-box; */
 }
+
+/* *,
+*::before,
+*::after {
+  box-sizing: inherit;
+} */
+
 body {
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;

@@ -1,107 +1,67 @@
 import React, { Component } from "react";
-import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import { Fade } from "react-reveal";
-import CalendarHeatmap from "react-calendar-heatmap";
-import {
-  projectsHeader,
-  publicationsHeader,
-  publications,
-  githubData,
-} from "../../portfolio.js";
-import ProjectsData from "../../shared/opensource/projects.json";
-import "./Projects.css";
-import ProjectsImg from "./ProjectsImg";
-import "react-calendar-heatmap/dist/styles.css";
-
+import "./Experience.css";
+import { experience, projectsHeader } from "../../portfolio.js";
+import ProjectsImg from "./ProjectsImg.js";
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
-    const formattedData = githubData.contributions.map((contribution) => ({
-      date: contribution.date,
-      count: contribution.count,
-    }));
+    const sections = experience["sections"];
     return (
-      <div className="projects-main" id="projects">
-        <div className="basic-projects">
+      <div className="experience-main" id="experience">
+        <div className="basic-experience" style={{ marginBottom: "4rem" }}>
           <Fade bottom duration={2000} distance="40px">
-            <div className="projects-heading-div">
-              <div className="projects-heading-img-div">
+            <div className="experience-heading-div">
+              <div className="experience-heading-img-div">
                 <ProjectsImg theme={theme} />
               </div>
-              <div className="projects-heading-text-div">
+              <div className="experience-heading-text-div">
                 <h1
-                  className="projects-heading-text"
+                  className="experience-heading-text"
                   style={{ color: theme.text }}
                 >
                   {projectsHeader.title}
                 </h1>
+                <h3
+                  className="experience-heading-sub-text"
+                  style={{ color: theme.text }}
+                >
+                  Some of my works
+                </h3>
                 <p
-                  className="projects-header-detail-text subTitle"
+                  className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {projectsHeader["description"]}
+                  {projectsHeader.description}
                 </p>
               </div>
             </div>
           </Fade>
         </div>
-        <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
-        </div>
-        <div className="github-data">
-          <div className="certs-header-div">
-            <Fade bottom duration={2000} distance="20px">
-              <h1 className="certs-header" style={{ color: theme.text }}>
-                Github Contribution
-              </h1>
-            </Fade>
-          </div>
-          <p>{githubData.total.lastYear} contributions in the last year</p>
-          <CalendarHeatmap
-            startDate={new Date("2023-07-16")}
-            endDate={new Date("2024-07-15")}
-            values={formattedData}
-            classForValue={(value) => {
-              if (!value) {
-                return "color-empty";
-              }
-              return `color-github-${value.count}`;
-            }}
-          />
-        </div>
 
-        {/* Publications  */}
-        {publications.data.length > 0 ? (
-          <div className="basic-projects">
-            <Fade bottom duration={2000} distance="40px">
-              <div className="publications-heading-div">
-                <div className="publications-heading-text-div">
-                  <h1
-                    className="publications-heading-text"
-                    style={{ color: theme.text }}
-                  >
-                    {publicationsHeader.title}
-                  </h1>
-                  <p
-                    className="projects-header-detail-text subTitle"
-                    style={{ color: theme.secondaryText }}
-                  >
-                    {publicationsHeader["description"]}
-                  </p>
+        {sections.map((section) => {
+          return section["experiences"].map((experience, index) => {
+            return (
+              <div className="experience-wrapper">
+                <div
+                  className="project-box"
+                  style={{
+                    backgroundColor: `${theme.body}`,
+                  }}
+                >
+                  <div>
+                    <h2>{experience.title}</h2>
+                    <p>{experience.description}</p>
+                  </div>
+                  <img
+                    alt="website"
+                    src="https://plus.unsplash.com/premium_photo-1679079456083-9f288e224e96?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHdlYnNpdGVzfGVufDB8fDB8fHww"
+                  />
                 </div>
               </div>
-            </Fade>
-          </div>
-        ) : null}
-
-        <div className="repo-cards-div-main">
-          {publications.data.map((pub) => {
-            return <PublicationCard pub={pub} theme={theme} />;
-          })}
-        </div>
+            );
+          });
+        })}
       </div>
     );
   }

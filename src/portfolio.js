@@ -365,8 +365,7 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description:
-    "I've worked on a variety of projects using the right technologies as the project demands. My solutions are mostly web based whether building and optimizing user interfaces or designing Restful APIs for either web, mobile or desktop clients.",
+  description: "I've worked on various projects across different industries.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -2280,6 +2279,114 @@ const githubData = {
     },
   ],
 };
+
+const blogData = {
+  blogs: [
+    {
+      url: "https://pureheartgharoro.vercel.app/",
+      image:
+        "https://plus.unsplash.com/premium_photo-1661908377130-772731de98f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+      title: "Nomba Checkout",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, diam sed placerat maximus, leo lectus venenatis diam, vel posuere purus urna non leo. Mauris efficitur enim id bibendum condimentum. Nulla lacinia, nisi id sagittis dapibus, ex lectus consectetur magna, at vehicula mauris tellus vel tortor. Etiam eget placerat lacus. Sed facilisis nibh quis velit malesuada, nec aliquet sapien mattis. Cras eu fermentum massa.",
+    },
+    {
+      url: "https://pureheartgharoro.vercel.app/",
+      image:
+        "https://plus.unsplash.com/premium_photo-1661908377130-772731de98f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+      title: "Nomba Checkout",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, diam sed placerat maximus, leo lectus venenatis diam, vel posuere purus urna non leo. Mauris efficitur enim id bibendum condimentum. Nulla lacinia, nisi id sagittis dapibus, ex lectus consectetur magna, at vehicula mauris tellus vel tortor. Etiam eget placerat lacus. Sed facilisis nibh quis velit malesuada, nec aliquet sapien mattis. Cras eu fermentum massa.",
+    },
+    {
+      url: "https://pureheartgharoro.vercel.app/",
+      image:
+        "https://plus.unsplash.com/premium_photo-1661908377130-772731de98f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+      title: "Nomba Checkout",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, diam sed placerat maximus, leo lectus venenatis diam, vel posuere purus urna non leo. Mauris efficitur enim id bibendum condimentum. Nulla lacinia, nisi id sagittis dapibus, ex lectus consectetur magna, at vehicula mauris tellus vel tortor. Etiam eget placerat lacus. Sed facilisis nibh quis velit malesuada, nec aliquet sapien mattis. Cras eu fermentum massa.",
+    },
+    {
+      url: "https://pureheartgharoro.vercel.app/",
+      image:
+        "https://plus.unsplash.com/premium_photo-1661908377130-772731de98f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+      title: "Nomba Checkout",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, diam sed placerat maximus, leo lectus venenatis diam, vel posuere purus urna non leo. Mauris efficitur enim id bibendum condimentum. Nulla lacinia, nisi id sagittis dapibus, ex lectus consectetur magna, at vehicula mauris tellus vel tortor. Etiam eget placerat lacus. Sed facilisis nibh quis velit malesuada, nec aliquet sapien mattis. Cras eu fermentum massa.",
+    },
+    {
+      url: "https://pureheartgharoro.vercel.app/",
+      image:
+        "https://plus.unsplash.com/premium_photo-1661908377130-772731de98f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+      title: "Nomba Checkout",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, diam sed placerat maximus, leo lectus venenatis diam, vel posuere purus urna non leo. Mauris efficitur enim id bibendum condimentum. Nulla lacinia, nisi id sagittis dapibus, ex lectus consectetur magna, at vehicula mauris tellus vel tortor. Etiam eget placerat lacus. Sed facilisis nibh quis velit malesuada, nec aliquet sapien mattis. Cras eu fermentum massa.",
+    },
+    {
+      url: "https://pureheartgharoro.vercel.app/",
+      image:
+        "https://plus.unsplash.com/premium_photo-1661908377130-772731de98f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+      title: "Nomba Checkout",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, diam sed placerat maximus, leo lectus venenatis diam, vel posuere purus urna non leo. Mauris efficitur enim id bibendum condimentum. Nulla lacinia, nisi id sagittis dapibus, ex lectus consectetur magna, at vehicula mauris tellus vel tortor. Etiam eget placerat lacus. Sed facilisis nibh quis velit malesuada, nec aliquet sapien mattis. Cras eu fermentum massa.",
+    },
+  ],
+};
+const achievementSection = {
+  title: "Achievements",
+  subtitle: "Achievements",
+  achivementsCards: [
+    {
+      footerLink: "https://pureheartgharoro.vercel.app/",
+      image:
+        "https://plus.unsplash.com/premium_photo-1661908377130-772731de98f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+      title: "Nomba Checkout",
+      subtitle:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, diam sed placerat maximus, leo lectus venenatis diam, vel posuere purus urna non leo. Mauris efficitur enim id bibendum condimentum. Nulla lacinia, nisi id sagittis dapibus, ex lectus consectetur magna, at vehicula mauris tellus vel tortor. Etiam eget placerat lacus. Sed facilisis nibh quis velit malesuada, nec aliquet sapien mattis. Cras eu fermentum massa.",
+    },
+    {
+      footerLink: "https://pureheartgharoro.vercel.app/",
+      image:
+        "https://plus.unsplash.com/premium_photo-1661908377130-772731de98f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+      title: "Nomba Checkout",
+      subtitle:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, diam sed placerat maximus, leo lectus venenatis diam, vel posuere purus urna non leo. Mauris efficitur enim id bibendum condimentum. Nulla lacinia, nisi id sagittis dapibus, ex lectus consectetur magna, at vehicula mauris tellus vel tortor. Etiam eget placerat lacus. Sed facilisis nibh quis velit malesuada, nec aliquet sapien mattis. Cras eu fermentum massa.",
+    },
+    {
+      footerLink: "https://pureheartgharoro.vercel.app/",
+      image:
+        "https://plus.unsplash.com/premium_photo-1661908377130-772731de98f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+      title: "Nomba Checkout",
+      subtitle:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, diam sed placerat maximus, leo lectus venenatis diam, vel posuere purus urna non leo. Mauris efficitur enim id bibendum condimentum. Nulla lacinia, nisi id sagittis dapibus, ex lectus consectetur magna, at vehicula mauris tellus vel tortor. Etiam eget placerat lacus. Sed facilisis nibh quis velit malesuada, nec aliquet sapien mattis. Cras eu fermentum massa.",
+    },
+    {
+      footerLink: "https://pureheartgharoro.vercel.app/",
+      image:
+        "https://plus.unsplash.com/premium_photo-1661908377130-772731de98f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+      title: "Nomba Checkout",
+      subtitle:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, diam sed placerat maximus, leo lectus venenatis diam, vel posuere purus urna non leo. Mauris efficitur enim id bibendum condimentum. Nulla lacinia, nisi id sagittis dapibus, ex lectus consectetur magna, at vehicula mauris tellus vel tortor. Etiam eget placerat lacus. Sed facilisis nibh quis velit malesuada, nec aliquet sapien mattis. Cras eu fermentum massa.",
+    },
+    {
+      footerLink: "https://pureheartgharoro.vercel.app/",
+      image:
+        "https://plus.unsplash.com/premium_photo-1661908377130-772731de98f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+      title: "Nomba Checkout",
+      subtitle:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, diam sed placerat maximus, leo lectus venenatis diam, vel posuere purus urna non leo. Mauris efficitur enim id bibendum condimentum. Nulla lacinia, nisi id sagittis dapibus, ex lectus consectetur magna, at vehicula mauris tellus vel tortor. Etiam eget placerat lacus. Sed facilisis nibh quis velit malesuada, nec aliquet sapien mattis. Cras eu fermentum massa.",
+    },
+    {
+      footerLink: "https://pureheartgharoro.vercel.app/",
+      image:
+        "https://plus.unsplash.com/premium_photo-1661908377130-772731de98f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+      title: "Nomba Checkout",
+      subtitle:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, diam sed placerat maximus, leo lectus venenatis diam, vel posuere purus urna non leo. Mauris efficitur enim id bibendum condimentum. Nulla lacinia, nisi id sagittis dapibus, ex lectus consectetur magna, at vehicula mauris tellus vel tortor. Etiam eget placerat lacus. Sed facilisis nibh quis velit malesuada, nec aliquet sapien mattis. Cras eu fermentum massa.",
+    },
+  ],
+};
+
 export {
   settings,
   seo,
@@ -2294,4 +2401,6 @@ export {
   publications,
   contactPageData,
   githubData,
+  blogData,
+  achievementSection,
 };

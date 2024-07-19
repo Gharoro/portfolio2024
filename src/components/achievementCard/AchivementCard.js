@@ -16,9 +16,10 @@ export default function AchivementCard({ cardInfo }) {
         <p className="card-subtitle">{cardInfo.description}</p>
       </div>
       <div className="certificate-card-footer">
-        {cardInfo.footer.map((v, i) => {
-          return <p onClick={() => openUrlInNewTab(v.url)}>{v.name}</p>;
-        })}
+        <p onClick={() => openUrlInNewTab(cardInfo.footer)}>
+          {cardInfo.footer}
+        </p>
+        ;
       </div>
     </div>
   );

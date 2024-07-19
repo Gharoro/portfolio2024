@@ -8,7 +8,6 @@ import Education from "../education/EducationComponent";
 import Experience from "../experience/Experience";
 import Projects from "../projects/Projects";
 import Contact from "../contact/ContactComponent";
-
 class Home extends Component {
   render() {
     return (

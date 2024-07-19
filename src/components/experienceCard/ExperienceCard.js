@@ -9,10 +9,7 @@ class ExperienceCard extends Component {
     const totalCards = this.props.totalCards;
     const theme = this.props.theme;
     return (
-      <div
-        className="experience-list-item"
-        style={{ marginTop: index === 0 ? 30 : 50 }}
-      >
+      <div className="experience-list-item">
         <div className="experience-card-stepper">
           <div
             style={{
@@ -95,6 +92,7 @@ class ExperienceCard extends Component {
                   justifyContent: "flex-start",
                   textAlign: "justify",
                   marginTop: 20,
+                  lineHeight: "20px",
                 }}
               >
                 <div className="repo-description" />
