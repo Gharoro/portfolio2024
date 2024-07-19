@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "PureheartGharoro",
   nickname: "Senior Software Engineer",
   subTitle:
-    "A result oriented software engineer with seven (7) years of experience building scalable and secured software solutions and leading cross-functional teams. Expertise in JavaScript, TypeScript, React, Angular, Node.js and Nest.Js.",
+    "I am a Senior Software Engineer based in Lagos, Nigeria with seven (7) years of experience in software development. My industry experience cuts across FinTech, EdTech, Identity Management and HRTech. I have a proven track record of developing secure and scalable software solutions and leading cross-functional teams. My areas of expertise include JavaScript, TypeScript, React, Angular, Node.js, and Nest.Js.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   githubProfile: "https://github.com/Gharoro",
