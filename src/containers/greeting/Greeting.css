@@ -39,14 +39,14 @@
 
 .greeting-nickname {
   font-size: 18px;
-  line-height: 10px;
+  line-height: 24px;
   font-family: "Google Sans Medium italic";
 }
 
 .greeting-job {
   font-size: 20px;
   line-height: 10px;
-  text-align: center;
+  font-family: "Google Sans Regular";
 }
 
 .greeting-text-p {

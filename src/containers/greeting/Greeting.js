@@ -25,13 +25,8 @@ export default function Greeting(props) {
               )}
               {greeting.nickname && (
                 <h2 className="greeting-job" style={{ color: theme.text }}>
-                  Senior Software Engineer
+                  - Senior Software Engineer
                 </h2>
-              )}
-              {greeting.nickname && (
-                <h3 className="greeting-job" style={{ color: theme.text }}>
-                  Senior Software Engineer 3
-                </h3>
               )}
               <p
                 className="greeting-text-p subTitle"
