@@ -339,14 +339,14 @@ const experience = {
       title: "Volunteer Experience",
       experiences: [
         {
-          title: "Mobile Web Specialist Mentor ALC 4.0 (Volunteer)",
-          company: "Google and Andela",
+          title: "Volunteer Mentor - Mobile Web Specialist ALC 4.0",
+          company: "Andela",
           company_url: "https://andela.com/",
           logo_path: "",
-          duration: "June 2019 - December 2019",
+          duration: "June 2020 - December 2020",
           location: "Lagos, Nigeria",
           description:
-            "Learning Community Volunteer Mentor where I supported and provided guidance to learners that were currently enrolled in the ALC program (Mobile Web Specialist Track) mentoring and unblocking any issue they may be facing with their learning in collaboration with Google and Pluralsight.",
+            "Learning Community Volunteer Mentor where I supported and provided guidance to learners that were currently enrolled in the ALC program (Mobile Web Specialist Track) mentoring and unblocking any issue they may be facing with their learning in collaboration with Google and Pluralsight. My role is to mentor learners in the Mobile Web Specialist track, assist them in their learning, document their engagement and review their code base to provide helpful feedback on software development best practices.",
           color: "#4285F4",
         },
         {
